@@ -40,6 +40,8 @@ const store = createStore({
             searchName: '',
         }
     },
+
+
     getters: {
         filterLoaiMonAn(state) {
             return state.monAnList.filter(loai => loai.loai === 'AnNhanh')
@@ -56,12 +58,9 @@ const store = createStore({
         }
     },
     actions: {
-        searchNameMutation(context,payload) {
-            context.commit('searchNameMutation',payload)
-
-
+        searchNameMutation(context, payload) {
+            context.commit('searchNameMutation', payload)
         }
-
     }
 
 })

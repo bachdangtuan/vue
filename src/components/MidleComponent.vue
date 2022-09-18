@@ -16,7 +16,7 @@
     </div>
 
     <h2>Quản Lý Món Ăn</h2>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col-9 p-0">
         <input class="form-control form-control-dark w-100"  v-model="searchName" type="text" placeholder="Search"
                aria-label="Search">
