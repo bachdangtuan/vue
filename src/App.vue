@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <header-component></header-component>
+  <slidebar-component></slidebar-component>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import SlidebarComponent from "@/components/SlidebarComponent";
+import HeaderComponent from "@/components/HeaderComponent";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderComponent,
+    SlidebarComponent,
+
   }
 }
 </script>
@@ -21,6 +26,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
