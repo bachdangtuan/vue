@@ -41,7 +41,8 @@ export default {
 
     ...mapGetters([
       'filterLoaiMonAn',
-      'monAnListSearchName'
+      'monAnListSearchName',
+      'deleteMonAnlist'
     ])
   }
 
